@@ -8,7 +8,7 @@ const singleReview = ({
   link,
 }) => {
   return (
-    <div className="review">
+    <div key={headline} className="review">
       <br />
       <header>
         <a href={link.url}>{headline}</a>
